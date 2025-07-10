@@ -12,16 +12,17 @@ Permite automatizar búsquedas de máquinas HTB usando diferentes parámetros de
 
 ---
 
-## Opciones disponible
+## Opciones disponibles
 
--u Descargar o actualizar archivos necesarios
--i Buscar por dirección IP
--m Buscar por nombre de máquinas
--d Buscar por la dificultad de una máquina
--o Buscar por el sistema operativo
--s Buscar por skills
--y Obtener link de la resolución de la máquina
--h Mostrar este panel de ayuda
+- `-u` Descargar o actualizar archivos necesarios 
+- `-i` Buscar por dirección IP 
+- `-m` Buscar por nombre de máquinas 
+- `-d` Buscar por la dificultad de una máquina 
+- `-o` Buscar por el sistema operativo 
+- `-s` Buscar por skills 
+- `-y` Obtener link de la resolución de la máquina
+- `-h` Mostrar este panel de ayuda
+
 
 ---
 
@@ -29,7 +30,7 @@ Permite automatizar búsquedas de máquinas HTB usando diferentes parámetros de
 
 ```bash
 ./htbmachines.sh -u
-# Actualiza la base de datos local
+#  Descarga y Actualiza el archivo necesario para su funcionamiento
 
 ./htbmachines.sh -i 10.10.10.238
 # Devuelve la máquina correspondiente a esa IP
@@ -38,7 +39,7 @@ Permite automatizar búsquedas de máquinas HTB usando diferentes parámetros de
 # Muestra toda la info detallada de esa máquina
 
 ./htbmachines.sh -d Media -o Windows
-# Lista máquinas de dificultad Media que usen Windows
+# Lista máquinas de dificultad Media que usen Windows (-d [dificultad] -o [sistema operativo]) 
 
 ./htbmachines.sh -s "server side request"
 # Busca máquinas que involucren esa skill
