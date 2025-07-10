@@ -30,7 +30,7 @@ Permite automatizar búsquedas de máquinas HTB usando diferentes parámetros de
 
 ```bash
 ./htbmachines.sh -u
-#  Descarga y Actualiza el archivo necesario para su funcionamiento
+# Descarga y Actualiza el archivo necesario para su funcionamiento
 
 ./htbmachines.sh -i 10.10.10.238
 # Devuelve la máquina correspondiente a esa IP
