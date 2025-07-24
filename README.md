@@ -26,6 +26,15 @@ Permite automatizar búsquedas de máquinas HTB usando diferentes parámetros de
 
 ---
 
+## Ejecución
+
+```bash
+git clone https://github.com/Gabriel-GR14/htbmachines.git
+chmod +x htbmachines.sh
+./htbmachines.sh
+
+---
+
 ## Ejemplos de uso
 
 ```bash
